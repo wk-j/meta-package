@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <PackageId>wk.MetaPackage</PackageId>
+    <Version>0.1.0</Version>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="wk.ProjectParser" Version="0.4.0" />
+    <PackageReference Include="wk.StartProcess" Version="18.5.2" />
+  </ItemGroup>
+
+</Project>
